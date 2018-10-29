@@ -4,16 +4,76 @@ html {
 
 body {
     height: 100%;
-    
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/S15GBCm/videoblocks-painting-flag-of-bulgaria-on-old-wood-boards-with-four-different-ways-animation-of-wooden-grunge-bulgarian-flag-loop-abstract-flag-background-for-your-text-or-logo-drawing-bulgaria-flag-full-hd-and-4k_hzoi_51eb_thumbnail-small03.jpg") ;
+    color:white;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    font-size: 20px;
+    font-family: 'Bad Script', cursive , bold;
 }
 a {
     text-decoration: none;
+    font-size: 40px;
+    color:white;
 }
-
+.header{
+    display:flex;
+    justify-content:center;
+    font-family: bold, 'Charmonman', cursive;
+    font-size: 80px;
+}
+.navbar{
+    display: flex;
+    justify-content:space-around;
+}
+.footer{
+  display: flex;
+  justify-content:space-around;
+}
+.gallery{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.aboutMain{
+    display:flex;
+    
+}
+.leftPane{
+    width:50%;
+    margin-left: 10px;
+}
 .main {
     height: 100%;
+    background-image:url("https://visitmybulgaria.com/wp-content/uploads/2018/01/79ideas_kazanlak_rose_festival.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .social-image{
     width: 30px;
     margin: 15px;
+}
+.rightPane{
+  margin: 10px;
+  width: 50%;
+  background-size: 140%;
+  background-image: url("https://globalsummit.tech/assets/uploads/sites/8/2017/06/Bulgaria-Climate.jpg");
+  border: white, solid, 3px;
+}
+
+.gallery{
+    display: flex;
+}
+.thumbnail{
+    height:100%;
+    width:20%;
+    margin:7px;
+}
+.thumbnail-image{
+    height:300px;
+    width:300px; 
+}
+iframe{
+    height:100%;
+    width:50%;
 }
